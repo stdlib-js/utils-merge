@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-merge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Merge and extend objects.",
   "license": "Apache-2.0",
   "author": {
