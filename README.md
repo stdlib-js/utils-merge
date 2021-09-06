@@ -474,6 +474,12 @@ out = merge( {}, target, source );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/copy`][@stdlib/utils/copy]: copy or deep clone a value to an arbitrary depth.
+
 </section>
 
 <!-- /.related -->
@@ -535,9 +541,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-merge/main/LICENSE
 
+[node-buffer]: http://nodejs.org/api/buffer.html
+
+<!-- <related-links> -->
+
 [@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
 
-[node-buffer]: http://nodejs.org/api/buffer.html
+<!-- </related-links> -->
 
 </section>
 
