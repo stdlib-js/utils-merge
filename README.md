@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js_utils_merge@deno/mod.js';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@deno/mod.js';
 ```
 
 #### merge( target, source1\[, source2\[,...,sourceN]] )
@@ -401,7 +401,7 @@ var out = m( target, source );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js_utils_merge@deno/mod.js';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@deno/mod.js';
 
 var target;
 var source;
