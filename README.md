@@ -24,32 +24,30 @@ limitations under the License.
 
 > Merge and extend objects.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-merge
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-merge = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.merge;
-})();
-</script>
+var merge = require( '@stdlib/utils-merge' );
 ```
 
 #### merge( target, source1\[, source2\[,...,sourceN]] )
@@ -418,13 +416,8 @@ var out = m( target, source );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var merge = require( '@stdlib/utils-merge' );
 
 var target;
 var source;
@@ -479,11 +472,6 @@ out = merge( {}, target, source );
         'e': true
     }
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -577,7 +565,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/umd
+[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy
 
 <!-- </related-links> -->
 
