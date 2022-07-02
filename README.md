@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.merge;
+})();
 })();
 </script>
 ```
@@ -431,6 +433,7 @@ var out = m( target, source );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var target;
 var source;
@@ -486,6 +489,7 @@ out = merge( {}, target, source );
     }
 */
 
+})();
 })();
 </script>
 </body>
@@ -583,7 +587,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/umd
+[@stdlib/utils/copy]: https://github.com/stdlib-js/utils-copy/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
