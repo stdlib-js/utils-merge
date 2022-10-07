@@ -419,11 +419,7 @@ var out = m( target, source );
 ```javascript
 var merge = require( '@stdlib/utils-merge' );
 
-var target;
-var source;
-var out;
-
-target = {
+var target = {
     'a': 'beep',
     'b': 'boop',
     'c': {
@@ -437,7 +433,7 @@ target = {
     'd': [ 1, 2, 3 ]
 };
 
-source = {
+var source = {
     'b': 3.141592653589793,
     'c': {
         'c1': 'bap',
@@ -452,7 +448,7 @@ source = {
     'e': true
 };
 
-out = merge( {}, target, source );
+var out = merge( {}, target, source );
 /* returns
     {
         'a': 'beep',
