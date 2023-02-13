@@ -482,7 +482,7 @@ var out = merge( {}, target, source );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/copy`][@stdlib/utils/copy]</span><span class="delimiter">: </span><span class="description">copy or deep clone a value to an arbitrary depth.</span>
+-   <span class="package-name">[`@stdlib/utils-copy`][@stdlib/utils/copy]</span><span class="delimiter">: </span><span class="description">copy or deep clone a value to an arbitrary depth.</span>
 
 </section>
 
