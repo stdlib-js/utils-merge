@@ -46,15 +46,15 @@
     "@stdlib/assert-is-positive-integer": "^0.1.0",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-copy": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-keys": "^0.1.0",
-    "@stdlib/utils-type-of": "^0.1.1"
+    "@stdlib/utils-type-of": "^0.1.2"
   },
   "devDependencies": {
     "@stdlib/array-uint8": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/boolean-ctor": "^0.1.1",
     "@stdlib/buffer-from-string": "^0.1.1",
     "@stdlib/number-ctor": "^0.1.1",
