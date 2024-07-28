@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-merge/tags). For example,
+
+```javascript
 import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
 ```
 
 #### merge( target, source1\[, source2\[,...,sourceN]] )
@@ -423,7 +428,7 @@ var out = m( target, source );
 <body>
 <script type="module">
 
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-esm/index.mjs';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
 
 var target = {
     'a': 'beep',
