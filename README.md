@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@deno/mod.js';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-deno/mod.js';
 ```
 
 #### merge( target, source1\[, source2\[,...,sourceN]] )
@@ -418,7 +418,7 @@ var out = m( target, source );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@deno/mod.js';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.2-deno/mod.js';
 
 var target = {
     'a': 'beep',
