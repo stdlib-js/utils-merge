@@ -47,7 +47,7 @@
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/utils-copy": "^0.2.1",
+    "@stdlib/utils-copy": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-type-of": "^0.2.2",
@@ -62,7 +62,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
