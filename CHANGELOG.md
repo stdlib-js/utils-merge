@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-21)
+## Unreleased (2025-08-15)
 
 <section class="issues">
 
@@ -24,6 +24,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`a147b7d`](https://github.com/stdlib-js/stdlib/commit/a147b7d6ef754925120fcc7bdec2b40842a3615a) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`4baa837`](https://github.com/stdlib-js/stdlib/commit/4baa837fde6fbe176add7b35f1f95f2e3b476ac0) - **chore:** fix EditorConfig lint errors [(#7696)](https://github.com/stdlib-js/stdlib/pull/7696) _(by Satyajeet Chavan, Athan Reines)_
 
 </details>
@@ -36,9 +39,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 -   Satyajeet Chavan
 
 </section>
