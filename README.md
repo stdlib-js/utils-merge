@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.3-esm/index.mjs';
 ```
 
 #### merge( target, source1\[, source2\[,...,sourceN]] )
@@ -423,7 +423,7 @@ var out = m( target, source );
 <body>
 <script type="module">
 
-import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@esm/index.mjs';
+import merge from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-merge@v0.2.3-esm/index.mjs';
 
 var target = {
     'a': 'beep',
